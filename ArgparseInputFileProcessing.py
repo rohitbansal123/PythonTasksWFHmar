@@ -1,7 +1,7 @@
 import mysql.connector
 import csv
 import argparse
-conn=mysql.connector.connect(host="localhost",user="root",passwd="password",database="crud")#established connection between your database
+conn = mysql.connector.connect(host="localhost",user="root",passwd="password",database="crud")#established connection between your database
 mycursor=conn.cursor()#cursor() method create a cursor object
 
 
