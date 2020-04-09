@@ -27,8 +27,6 @@ message = """<html>
 </html>"""
 
 new_message = message.format(URL=a,title=toi_article.title,auth=toi_article.authors,summ=toi_article.summary,text=toi_article.text,date=toi_article.publish_date )
-# I've put the formatted message in a new variable
-# so you can reuse "message" as a template
 f.write(new_message)
 f.close()
 
