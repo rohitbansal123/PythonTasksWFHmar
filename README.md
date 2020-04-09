@@ -19,6 +19,6 @@ refer UpdateGitRepos.py
 task 5: For task of Python utility to fetch articles from a news website and generate an HTML page:
 refer NewsWebScrappingFinal.py
 
-#other newswebscrapping files are for learning purposes
+(other newswebscrapping files are for learning purposes)
 
 
