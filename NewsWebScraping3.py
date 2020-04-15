@@ -6,6 +6,7 @@ toi_article = Article(url, language="en") # en for English
 
 toi_article.download()
 toi_article.parse()
+# TODO: Use 'with' statment to open file, study about with keyword in python
 hs = open("art.html", 'w')
 hs.write(toi_article.text)
 

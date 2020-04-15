@@ -1,3 +1,5 @@
+
+#TODO: comments similar to that of ../ArgparseInputFileProcessing.py
 import mysql.connector
 mysqldb=mysql.connector.connect(host="localhost",user="root",passwd="password",database="dbcrud")#established connection between your database
 mycursor=mysqldb.cursor()#cursor() method create a cursor object

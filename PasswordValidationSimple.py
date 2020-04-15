@@ -1,6 +1,8 @@
 # Password validation in Python
 # using naive method(Simple method without regex)
 
+# TODO: It is better to use regex for this, since you would be iterating the string multiple times in this case 
+
 # Function to validate the password
 
 def password_check(passwd):

@@ -1,3 +1,5 @@
+
+#TODO: comments similar to that of ../ArgparseInputFileProcessing.py
 #Create a table into dbcrud database
 import mysql.connector
 mysqldb=mysql.connector.connect(host="localhost",user="root",password="password",database="dbcrud")#established connection between your database
